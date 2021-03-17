@@ -1,0 +1,222 @@
+    1  ls
+    2  pwd
+    3  whoami
+    4  date
+    5  pwd
+    6  ls
+    7  cd .
+    8  pwd
+    9  mkdir dataviz
+   10  ls
+   11  cd dataviz/
+   12  exit() :q
+   13  exit() q
+   14  date
+   15  pwd
+   16  date > file_with_date
+   17  ls
+   18  cat file_with_date 
+   19  date >> file_with_date 
+   20  cat -n file_with_date 
+   21  pwd
+   22  cd dataviz/
+   23  ls
+   24  ./file_with_date
+   25  nano file_with_date 
+   26  pwd
+   27  ls
+   28  cd dataviz/
+   29  pwd
+   30  ec2-18-191-162-151.us-east-2.compute.amazonaws.ls
+   31  ls
+   32  cd week_01/
+   33  ls
+   34  nano history_file.txt 
+   35  pwd
+   36  ls
+   37  cd dataviz/
+   38  mkdir week_03
+   39  ls
+   40  cd week_03
+   41  git config --global user.name "mohrizwan1993"
+   42  git config --global user.email "mohrizwan1993@email.com"
+   43  git clone https://github.com/mohrizwan1993/BUSA8090.git
+   44  ls
+   45  cd BUSA8090/
+   46  ls
+   47  cd dataviz/
+   48  ls
+   49  git clone "https://github.com/mohrizwan1993/busa8090_assignment_1.git"
+   50  ls
+   51  busa8090_assignment_1/
+   52  cd busa8090_assignment_1/
+   53  ls
+   54  touch -t 202103081800 foo
+   55  touch -t 202103081801 goo
+   56  touch -t 202103081802 hoo
+   57* 
+   58  vi older.sh
+   59  chmod u+x older.sh
+   60  ./older.sh
+   61  cd
+   62  $PWD
+   63  cd dataviz/busa8090_assignment_1/
+   64  cp older.sh /home/ubuntu
+   65  pwd
+   66  older.sh
+   67  $PWD
+   68  $PATH
+   69  pwd
+   70  PATH = $PATH":"$pwd
+   71  PATH=$PATH":"$pwd
+   72  $PATH
+   73  PATH=$PATH":"$(pwd)
+   74  $PATH
+   75  older.sh
+   76  ls
+   77  rm older.sh 
+   78  ls
+   79  cd dataviz/busa8090_assignment_1/
+   80  git status
+   81  git add foo 
+   82  git add goo
+   83  git add hoo
+   84  git add older.sh
+   85  git commit -m "Finished Question_1"
+   86  git status
+   87  git push
+   88  git status
+   89  git log
+   90  older.sh
+   91  ./older.sh
+   92  &PATH
+   93  $PATH
+   94  PATH=$PATH":"$(pwd)
+   95  $PATH
+   96  older.sh
+   97  man ls
+   98  vi older.sh 
+   99  pwd
+  100  vi funny.sh
+  101  chmod u+x funny.sh 
+  102  funny.sh
+  103  hello funny.sh
+  104  ./funny.sh
+  105  vi funny.sh 
+  106  ./funny.sh
+  107  vi funny.sh 
+  108  ./funny.sh
+  109  vi funny.sh 
+  110  ./funny.sh
+  111  vi funny.sh 
+  112  ./funny.sh
+  113  vi funny.sh 
+  114  ./funny.sh
+  115  vi funny.sh 
+  116  ./funny.sh
+  117  vi funny.sh 
+  118  ./funny.sh
+  119  vi funny.sh 
+  120  ./funny.sh head
+  121  vi funny.sh 
+  122  ./funny.sh head
+  123  ./funny.sh 
+  124  head and tail ./funny.sh
+  125  ./funny.sh head and tail
+  126  typing ./funny.sh
+  127  vi funny.sh 
+  128  typing ./funny.sh
+  129  vi funny.sh 
+  130  typing ./funny.sh
+  131  vi funny.sh 
+  132  typing ./funny.sh
+  133  vi funny.sh 
+  134  typing ./funny.sh
+  135  ./funny.sh head
+  136  ./funny.sh
+  137  vi funny.sh 
+  138  ./funny.sh
+  139  ./funny.sh test
+  140  ./funny.sh test is my life
+  141  vi funny.sh 
+  142  ./funny.sh test is my life
+  143  vi funny.sh 
+  144  ./funny.sh test is my life
+  145  vi funny.sh 
+  146  ./funny.sh test is my life
+  147  ./funny.sh 
+  148  vi funny.sh 
+  149  ./funny.sh test is my life
+  150  ./funny.sh
+  151  funny.sh 
+  152  vi funny.sh 
+  153  ./funny.sh param1
+  154  funny.sh 
+  155  funny.sh param1 param2 param3
+  156  man date
+  157  ls
+  158  curl -O https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--case-cp.sh
+  159  ls
+  160  rm chapter-10-shell-programming--case-cp.sh 
+  161  curl -o case-cp.sh https://www.staff.hs-mittweida.de/~wuenschi/data/media/compbiolbook/chapter-10-shell-programming--case-cp.sh
+  162  ls
+  163  vi case-cp.sh 
+  164  vi test-chime.sh
+  165  chmod u+x test-chime.sh 
+  166  ./test-chime.sh 
+  167  vi test-chime.sh
+  168  $(date+%m)
+  169  date+m
+  170  date+%m
+  171  hour=$date
+  172  $hour
+  173  echo $hour
+  174  echo $(date+'%M')
+  175  time=$(date+%I)
+  176  time=$(date +%I)
+  177  echo time
+  178  echo $time
+  179  time=$(date +%M)
+  180  echo $time
+  181  date
+  182  vi test-chime.sh 
+  183  ./test-chime.sh 
+  184  vi test-chime.sh 
+  185  ./test-chime.sh 
+  186  vi test-chime.sh 
+  187  ./test-chime.sh 
+  188  date
+  189  vi test-chime.sh 
+  190  ./test-chime.sh 
+  191  vi test-chime.sh 
+  192  ./test-chime.sh 
+  193  date+ %M
+  194  ./test-chime.sh 
+  195  time=$(date+ %M)
+  196  time=$(date +%M)
+  197  echo time
+  198  echo $time
+  199  ./test-chime.sh 
+  200  time=$(date +%M)
+  201  echo $time
+  202  ls
+  203  vi older.sh 
+  204  man date
+  205  git status
+  206  git add case-cp.sh 
+  207  git add funny.sh 
+  208  git add test-chime.sh 
+  209  git commit
+  210  git commit -m "Finshed 2nd and 3rd question"
+  211  git push
+  212  git log
+  213  vi test-chime.sh 
+  214  vi test-chime.sh
+  215  ./test-chime.sh 
+  216  time=$(date +%M)
+  217  echo $time
+  218  ./test-chime.sh 
+  219  time=$(date +%M)
+  220  echo $time
+  221  vi test-chime.sh 
+  222  history>history.txt
